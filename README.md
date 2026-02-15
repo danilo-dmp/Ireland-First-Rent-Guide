@@ -1,6 +1,6 @@
 # 🇮🇪 Ireland First Rent Guide (2020–2025)
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes official Irish rental data (RTB) from 2020 to 2025 to provide practical insights for individuals looking to rent a property in Ireland.
 
@@ -15,7 +15,7 @@ This project was developed as part of my transition into Data Analytics and demo
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Source:** RTB (Residential Tenancies Board) Official Rental Data, Kaggle  
 **Period Covered:** 2020 – 2025  
@@ -32,7 +32,7 @@ The dataset includes:
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 
 - Python  
 - Pandas (Data Cleaning & Aggregation)  
@@ -41,7 +41,7 @@ The dataset includes:
 
 ---
 
-## 🧹 Data Preparation
+## Data Preparation
 
 Key cleaning and transformation steps:
 
@@ -54,7 +54,7 @@ Key cleaning and transformation steps:
 
 ---
 
-## 🔍 Business Questions
+## Business Questions
 
 1. What is the average rental cost by county?
 2. Which counties are the most affordable?
@@ -64,9 +64,9 @@ Key cleaning and transformation steps:
 
 ---
 
-## 📈 Key Findings
+## Key Findings
 
-### 1️⃣ Dublin Dominates the Market
+### Dublin Dominates the Market
 
 ![Average Rent by County](images/avg_rent_county.png)
 
@@ -74,7 +74,7 @@ Dublin remains significantly more expensive than any other county, reflecting st
 
 ---
 
-### 2️⃣ Rental Prices Increased Consistently (2020–2025)
+### Rental Prices Increased Consistently (2020–2025)
 
 ![Rent Over Time](images/rent_over_time.png)
 
@@ -82,13 +82,13 @@ Rental prices show a steady upward trend across the entire country, with noticea
 
 ---
 
-### 3️⃣ Strong Regional Disparities
+### Strong Regional Disparities
 
 Western counties such as Donegal and Leitrim offer substantially lower rental costs compared to the Dublin metropolitan region.
 
 ---
 
-### 4️⃣ Value for Money Differs by Region
+### Value for Money Differs by Region
 
 ![Rent per Bedroom](images/rent_per_bedroom.png)
 
@@ -96,7 +96,31 @@ When analyzing rent per bedroom, western counties provide significantly better v
 
 ---
 
-## 📌 Conclusions
+### Insights list
+- Insight 1: Dublin is dramatically higher than the second place (€584 on average).
+- Insight 2: Dublin is almost 3x more expensive than Donegal on average
+- Insight 3: Rural counties have much lower price scaling
+- Insight 4: Urban premium is massive
+- Insight 5: Living in Donegal is 61% cheaper than Dublin for a 1-bed apartment
+- Insight 6: Dublin rents increased ~26% in 5 years
+- Insight 7: Donegal rents increased ~63% in 5 years
+- Insight 8: Donegal is growing much faster in percentage terms
+- Insight 9: Rural catch-up effect
+- Insight 10: Possible supply shortages spreading
+- Insight 11: Post-COVID relocation trends
+- Insight 12: Price pressure expanding beyond cities
+- Insight 13: Dublin has the highest average rent, significantly above all other counties.
+- Insight 14: Western counties such as Donegal and Leitrim present the lowest rental costs (strong regional price imbalance).
+- Insight 15: Rental prices have increased consistently between 2020 and 2025.
+- Insight 16: The growth accelerates after 2022, indicating post-pandemic housing pressure.
+- Insight 16: While both counties show growth, Dublin’s price level remains dramatically higher.
+- Insight 17: Relative growth in lower-cost counties is proportionally strong.
+- Insight 18: Rent for house and apartments are similar on average
+- Insight 19: Counties in the west offer significantly better value compared to Dublin and surrounding counties.
+
+---
+
+## Conclusions
 
 - Dublin remains the most expensive rental market in Ireland.
 - Rental prices increased consistently between 2020 and 2025.
@@ -107,7 +131,7 @@ This analysis provides a practical, data-driven overview for individuals conside
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Include inflation-adjusted rent analysis
 - Add interactive dashboards (Plotly or Tableau)
